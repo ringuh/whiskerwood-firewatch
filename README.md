@@ -22,7 +22,7 @@ Settings → Mods → **FireWatch - Move cursor to clicked fire** (`On` / `Off`,
 
 ## Installing
 
-- **Steam Workshop:** subscribe (link coming).
+- **Steam Workshop:** [subscribe here](https://steamcommunity.com/sharedfiles/filedetails/?id=3807454089).
 - **Manually:** put `FireWatch.pak` and `FireWatch.uplugin` in
   `%localappdata%\Whiskerwood\Saved\mods\FireWatch\` (create the folder; file names must stay `FireWatch.*`).
 

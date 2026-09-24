@@ -1,11 +1,30 @@
 "workshopitem"
 {
 	"appid"		"2489330"
-	"publishedfileid"		"0"
+	"publishedfileid"		"3807454089"
 	"contentfolder"		"E:\modding\whiskerwood-firewatch\workshop\content"
 	"previewfile"		"E:\modding\whiskerwood-firewatch\docs\screenshot.png"
-	"visibility"		"2"
 	"title"		"FireWatch - Campfire Monitor"
-	"description"		"Keep your campfires burning!\n\nFireWatch adds a small panel to the HUD that lists every burning campfire with a colour-coded burn bar (green > yellow > red), sorted so the one closest to going out is on top. The panel hides itself when no campfire is burning and on the naval map.\n\nClick a row to glide the camera to that fire. With the mod option 'Move cursor to clicked fire' (Settings > Mods, default On) the cursor also lands on the fire, so you can press R to add wood right away.\n\nCreated using the Whiskerwood modkit https://github.com/Whiskerwood-Modding/Whiskerwood-Project"
+	"description"		"[b]Keep your campfires burning![/b]
+
+FireWatch adds a small panel to the HUD that lists your burning campfires, so you can see at a glance which one is about to go out.
+
+[h2]Features[/h2]
+[list]
+[*][b]Burn bar per campfire[/b], coloured green > yellow > red as it burns down (values above 100% are shown as-is)
+[*][b]Lowest first[/b] - the fire closest to going out is always on top (up to 10 fires)
+[*][b]Click a row[/b] to glide the camera to that campfire
+[*]Optionally the cursor lands right on the fire, so you can press [b]R[/b] to add wood straight away
+[*]Lives inside the game HUD: hides on menus, loading screens and the naval map, and when no campfire is burning
+[*]Keeps updating while the game is paused
+[/list]
+
+[h2]Mod option[/h2]
+Settings > Mods > [b]FireWatch - Move cursor to clicked fire[/b] (On / Off, default On). With Off, clicking a row only moves the camera.
+
+[h2]Source[/h2]
+[url=https://github.com/ringuh/whiskerwood-firewatch]GitHub[/url]
+
+Created using the [url=https://github.com/Whiskerwood-Modding/Whiskerwood-Project]Whiskerwood modkit[/url]."
 	"changenote"		"First release"
 }
