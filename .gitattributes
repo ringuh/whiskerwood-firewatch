@@ -4,3 +4,4 @@
 *.pak binary
 *.png binary
 *.sh text eol=lf
+*.bat text eol=crlf

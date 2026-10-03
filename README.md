@@ -34,15 +34,16 @@ Settings → Mods → **FireWatch - Move cursor to clicked fire** (`On` / `Off`,
 | `docs/graphs/` | Blueprint graphs as copy-paste text (T3D), for reading or re-pasting into the editor. Reference only: the `.uasset` files are the source of truth and may contain small hand edits. |
 | `docs/screenshot.png` | Screenshot, also used as the Workshop preview image. |
 | `workshop/` | SteamCMD item file (`FireWatch.vdf`) and [upload steps](workshop/HOW_TO_UPLOAD.md). |
-| `sync-from-modkit.sh` | Copies the mod's assets from the modkit into this repo; `--release` also stages the built `.pak` for upload. |
+| `sync-from-modkit.bat` | Copies the mod's assets from the modkit into this repo and stages the built `.pak` + uplugin in `workshop/content/` for upload. |
+| `sync-to-steam.bat` | Uploads `workshop/content/` to the Steam Workshop with SteamCMD. |
 
 ## Building from source
 
 1. Set up the official [Whiskerwood modkit](https://github.com/Whiskerwood-Modding/Whiskerwood-Project) (custom UE 5.6 build, see its README).
 2. Copy `Mod/FireWatch/` from this repo to `Content/Mods/FireWatch/` in the modkit project.
 3. Open the project, right-click the `FireWatch` folder → **Cook & Install** (Mod Tools). This builds the `.pak` and installs it into the game's mods folder.
-4. After editing in the editor, run `./sync-from-modkit.sh` (Git Bash) to copy the changed assets back into `Mod/FireWatch/`, then commit.
-   The script assumes the modkit is at `E:\modding\Whiskerwood-Project`; override with `MODKIT=/e/other/path ./sync-from-modkit.sh`.
+4. After editing in the editor, run `sync-from-modkit.bat` to copy the changed assets back into `Mod/FireWatch/`, then commit.
+   The script assumes the modkit is at `E:\modding\Whiskerwood-Project`; override with `set MODKIT=D:\other\path` before running it.
 
 ## How it works
 
