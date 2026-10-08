@@ -11,4 +11,4 @@ Whiskerwood has no in-game uploader; the upload uses Valve's SteamCMD (`E:\moddi
 5. Run `sync-to-steam.bat`. SteamCMD asks for the password / Steam Guard code if it has no saved login.
    The item id is already in the .vdf (`3807454089`), so this updates the existing Workshop item.
 
-The preview image is `docs/screenshot.png`.
+The preview image is `docs/preview-deprecated.png` (since 1.1; `docs/screenshot.png` greyed out with a DEPRECATED stamp, made by `tools/make_preview.py`).

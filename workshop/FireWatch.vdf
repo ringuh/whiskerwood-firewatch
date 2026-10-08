@@ -3,9 +3,13 @@
 	"appid"		"2489330"
 	"publishedfileid"		"3807454089"
 	"contentfolder"		"E:\modding\whiskerwood-firewatch\workshop\content"
-	"previewfile"		"E:\modding\whiskerwood-firewatch\docs\screenshot.png"
-	"title"		"FireWatch - Campfire Monitor"
-	"description"		"[b]Keep your campfires burning![/b]
+	"previewfile"		"E:\modding\whiskerwood-firewatch\docs\preview-deprecated.png"
+	"title"		"[DEPRECATED] FireWatch - Campfire Monitor"
+	"description"		"[h1]Deprecated[/h1]
+[b]FireWatch is no longer maintained. Use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3815611495]Remote Campfire by Niklas[/url] instead.[/b]
+The mod still works, and shows a notice about this for 1 minute after a save loads.
+
+[b]Keep your campfires burning![/b]
 
 FireWatch adds a small panel to the HUD that lists your burning campfires, so you can see at a glance which one is about to go out.
 
@@ -26,5 +30,5 @@ Settings > Mods > [b]FireWatch - Move cursor to clicked fire[/b] (On / Off, defa
 [url=https://github.com/ringuh/whiskerwood-firewatch]GitHub[/url]
 
 Created using the [url=https://github.com/Whiskerwood-Modding/Whiskerwood-Project]Whiskerwood modkit[/url]."
-	"changenote"		"First release"
+	"changenote"		"1.1: FireWatch is deprecated: use Remote Campfire by Niklas (https://steamcommunity.com/sharedfiles/filedetails/?id=3815611495) instead. After a save loads, a notice says so for 1 minute. The campfire panel works as before."
 }
